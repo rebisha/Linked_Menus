@@ -1,0 +1,89 @@
+$white: #ffff;
+$black: #000;
+
+.container {
+    margin: 0 5%;
+    display: block;
+    overflow: hidden;
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.toggle-option {
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+// form styles
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 48px;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -10px;
+}
+
+label {
+    margin: 5px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+h1 {
+    margin-left: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+// button styles
+button {
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    background: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.button-wrapper {
+    background: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.menu-button {
+    display: block;
+}
+
+.main-menu-item {
+    background: #008B8B;
+    color: $white;
+}
+
+.sub-menu-item {
+    background: #20B2AA;
+    color: $white;
+}
+
+.tertiary-menu {
+    border: 2px solid $black;
+    width: 150px;
+}
