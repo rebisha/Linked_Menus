@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainMenu component renders correctly 1`] = `
+<div
+  className="main-menu"
+>
+  <button
+    className="button-wrapper"
+    onClick={[Function]}
+    type="button"
+  />
+</div>
+`;

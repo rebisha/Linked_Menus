@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders correctly 1`] = `
+<form
+  className="form-wrapper"
+  onSubmit={[Function]}
+>
+  <label>
+    User Id:
+  </label>
+  <input
+    name="userId"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <label>
+    Title:
+  </label>
+  <input
+    name="title"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <label>
+    Body:
+  </label>
+  <input
+    name="body"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <div
+    className="form-btn"
+  >
+    <button
+      type="submit"
+    >
+      Submit 
+    </button>
+    <button
+      type="reset"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

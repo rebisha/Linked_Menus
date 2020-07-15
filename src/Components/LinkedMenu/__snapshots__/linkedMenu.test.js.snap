@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkedMenu component renders correctly 1`] = `
+<div
+  className="toggle-option"
+>
+  <button
+    className="button-wrapper"
+    onClick={[Function]}
+    type="button"
+  />
+</div>
+`;
